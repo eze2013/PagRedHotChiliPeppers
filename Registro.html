@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RHCP</title>
+</head>
+<body>
+    <h1 id="title">REGISTRO FANATICOS RHCP</h1>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="Principal.html">PAGINA PRINCIPAL</a>
+                <ul>
+                    <li><a href="Registro.html">REGISTRATE</a></li>
+                    <li><a href="#">INTEGRANTES</a></li>
+                    <li><a href="discografias.html">DISCOGRAFIA</a></li>
+                    <li><a href="#">RECITALES</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <form action="" id="survey-form">
+        <img src="red hot.jpg" alt="esta pero no esta">
+        <fieldset>
+            <p><b>ESCRIBE TUS DATOS A CONTINUACION</b></p>
+            <label for="" id="name-label">Tu nombre: <input type="text" placeholder="tu nombre" required></label>
+            <label for="" id="email-label">Tu Email: <input type="email"  placeholder="tu email" required></label>
+            <label for="" id="number-label">Tu edad: <input type="number" min="16" max="100" placeholder="tu edad"></label>
+            <label for="">Contraseña: <input type="text" placeholder="contraseña"></label>
+        </fieldset>
+        <fieldset>    
+            <label for=""><b>DINOS TU ÁLBUM FAVORITO</b>
+                <select name="dropdown" id="dropdown">
+                    <option value="" id="dropdown">Elige el album</option>
+                    <option value="1" id="dropdown">Blood Sugar Sex Magik 1991</option>
+                    <option value="2" id="dropdown">One Hot Minute 1995</option>
+                    <option value="3" id="dropdown">Californication 1999</option>
+                    <option value="4" id="dropdown">By The Way 2002</option>
+                    <option value="5" id="dropdown">Stadium Arcadium 2006</option>
+                    <option value="6" id="dropdown">I´m With You 2011</option>
+                    <option value="7" id="dropdown">The Getaway 2016</option>
+                    <option value="8" id="dropdown">Return Of The Dream Canteen 2022</option>  
+                    <option value="9" id="dropdown">Unlimited Love 2022</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend><b>TU MIEMBRO FAVORITO DE LA BANDA ES?</b></legend>
+            <label for=""><input type="radio" name="artist" id="artist" value="1"> Anthony Kiedis <a href="https://www.google.com.ar/search?q=anthony+kiedis&sca_esv=eb5fe49497ada2df&udm=2&biw=1366&bih=607&sxsrf=ADLYWILtuNdUvd5_plm4j3eKJUj-fJDTkQ%3A1727887679272&ei=P3n9ZoGjEPPN1sQP9OigyQk&oq=a&gs_lp=Egxnd3Mtd2l6LXNlcnAiAWEqAggAMgQQIxgnMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgsQABiABBixAxiDATIKEAAYgAQYQxiKBTILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgUQABiABDILEAAYgAQYsQMYgwEyBRAAGIAESIEIUABYAHAAeACQAQCYAU-gAU-qAQExuAEByAEA-AEBmAIBoAJUmAMAkgcBMaAHqwY&sclient=gws-wiz-serp"><img id="img_art" src="anthony.jpg" alt=""></a></label>
+            <label for=""><input type="radio" name="artist" id="artist" value="2"> John Frusciante <a href="https://www.google.com.ar/search?q=john+frusciante&sca_esv=eb5fe49497ada2df&udm=2&biw=1366&bih=607&sxsrf=ADLYWILrgi8_C3ktehfQUHI4c0NhScmBjw%3A1727887575390&ei=13j9ZvK-F-nU1sQP1OacwQE&oq=jo&gs_lp=Egxnd3Mtd2l6LXNlcnAiAmpvKgIIADIEECMYJzIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIQEAAYgAQYsQMYQxiDARiKBTILEAAYgAQYsQMYgwEyChAAGIAEGEMYigUyCxAAGIAEGLEDGIMBMgoQABiABBhDGIoFSKsMUABYSnAAeACQAQCYAWGgAa8BqgEBMrgBA8gBAPgBAZgCAqACtwHCAg4QABiABBixAxiDARiKBcICBRAAGIAEmAMAkgcDMS4xoAfpDA&sclient=gws-wiz-serp"><img id="img_art" src="john.jpg" alt=""></a></label>
+            <label for=""><input type="radio" name="artist" id="artist" value="3"> Flea <a href="https://www.gettyimages.es/fotos/flea-red-hot-chili-peppers-photos"><img id="img_art" src="flea.jpg" alt=""></a></label>
+            <label for=""><input type="radio" name="artist" id="artist" value="4"> Chad Smith <a href="https://www.gettyimages.es/detail/fotograf%C3%ADa-de-noticias/drummer-chad-smith-of-the-red-hot-chili-peppers-fotograf%C3%ADa-de-noticias/956740424?adppopup=true"><img id="img_art" src="chad.jpg" alt="" ></a></label>
+            <p>(has clic en la imagen si quieres ver mas fotos del integrante)</p>
+        </fieldset>
+        <fieldset>
+            <legend><b>CUENTANOS LO QUE MAS TE GUSTA DE ELLOS: </b></legend>
+            <label for=""><textarea rows="5" cols="60" id="dropdown" placeholder="lo que me gusta es..."></textarea></label>
+        </fieldset>
+        <label for="terms-and-conditions"><input type="checkbox" id="ready" value="ready"> Listo para ser parte de esto!!</label>
+        <label for="terms-and-conditions"><input type="checkbox" id="ready" value="ready" required> Acepto <a href="">terminos y condiciones</a></label>
+        <img src="red hot.jpg" alt="esta pero no esta">
+        <input type="submit" id="submit" value="Registrate">
+    </form>
+    <footer>
+        <p>No Copyright, pagina creada por Hugo Ezequiel Sanchez- <a href="https://www.linkedin.com/in/ezequiel-sanchez-1019a1232/">perfil de linkedin</a></p>
+    </footer>
+</body>
+</html>
