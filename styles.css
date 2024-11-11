@@ -11,9 +11,16 @@ body{
 #title{
     font-size: 45px;
     color: red;
+    font-weight: 1000;
 }
  #description{
     color: red;
+    border: 1px solid white;
+    width: 30%;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
  }
 
  fieldset{
@@ -67,6 +74,18 @@ img{
 
 footer{
     margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
 }
 
 /*TODO LO DEL MENU DE LA IZQUIERDA*/
@@ -160,6 +179,14 @@ footer{
 }
 
 /*ACA TERMINO DE LO DEL MENU*/
+/*MENU PARA LAS CANCIONES PARECIDO AL ANTERIOR PERO NO TANTO*/
+.menu_canciones{
+    background-color: red;
+    color: black;
+    list-style: none;
+    margin-left: 22%;
+    margin-right: 21%;
+}
 
 .pagina_principal{
     margin-top: -60px;
@@ -195,4 +222,46 @@ legend{
     color: white;
     font-size: 18px;
 }
+
+.canciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 16px   ;
+}
+
+#letras{
+    background-color: red;
+    border: 1px solid white;
+    margin: 0;
+    height: auto;
+    width: 34%;
+}
+
+.titulo_canciones{
+    font-weight: 800;
+    color: black;
+}
+
+#imagen_canciones{
+    width: 300px;
+}
+
+.escuchar_cd{
+    background-color: red;
+    color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
 
